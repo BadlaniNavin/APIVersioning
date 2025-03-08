@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "API.Controllers.EmployeeController",
+    "Method": "GetEmployeeDetailV1",
+    "RelativePath": "api/v1/Employee/GetEmployeeDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.WeatherForecastController",
+    "Method": "GetV1",
+    "RelativePath": "api/v1/WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API.WeatherForecast, API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain; X-Version=1.0",
+          "application/json; X-Version=1.0",
+          "text/json; X-Version=1.0"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  },
+  {
+    "ContainingType": "API.Controllers.EmployeeController",
+    "Method": "GetEmployeeDetailV2",
+    "RelativePath": "api/v2/Employee/GetEmployeeDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.WeatherForecastController",
+    "Method": "GetV2",
+    "RelativePath": "api/v2/WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
